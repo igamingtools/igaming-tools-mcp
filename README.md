@@ -9,23 +9,24 @@
 
 Registered in the official MCP registry as `tools.i-gaming/igaming-data`.
 
-## What you get — 11 read-only tools
+## What you get — 12 read-only tools
 
 | Tool | What it returns |
 | --- | --- |
-| `search_providers` | Search and list slot providers by name or filter |
-| `get_provider` | Profile, licenses and key metrics for one provider |
-| `list_provider_slots` | All slots released by a given provider |
-| `search_slots` | Search slots by RTP, bonus buy, jackpot tier or mechanic |
-| `get_slot` | Full slot spec — RTP variants, mechanics, bonus buy, demo link |
-| `get_slot_demand` | Search-demand for one slot, by country over time |
-| `get_provider_demand` | Search-demand for a provider, by country over 24 months |
-| `list_news` | Latest iGaming industry news |
-| `list_jobs` | iGaming job listings |
-| `list_regulators` | Licensing regulators we track |
-| `get_regulator` | Detail on a single regulator |
+| `search_providers` | Search and list slot providers (casino game studios) |
+| `get_provider` | Full provider profile — firmographics, licensing, offices, counts |
+| `get_provider_demand` | Provider demand snapshot — metrics and top slots |
+| `list_provider_slots` | All slots by a given provider, with structural filters |
+| `search_slots` | Search and list public slots |
+| `get_slot` | Full slot profile — RTP/volatility/mechanics, spec sheet, assets |
+| `get_slot_demand` | Per-slot search demand — aggregate + country×month matrix |
+| `list_regulators` | Search/list regulators (UKGC, MGA, GGL, ANJ, etc.) |
+| `get_regulator` | Full regulator profile — jurisdiction, authority, statutory basis |
+| `list_news` | iGaming industry news articles |
+| `list_jobs` | iGaming job vacancies |
+| `list_sources` | Active news sources (hosts) with brand attribution |
 
-Every tool is read-only and returns the same public data as our REST API.
+All tools are read-only and return the same public data as our REST API.
 
 ## Quick connect
 
