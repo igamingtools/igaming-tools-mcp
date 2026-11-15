@@ -9,7 +9,7 @@
 
 Registered in the official MCP registry as `tools.i-gaming/igaming-data`.
 
-## What you get — 12 read-only tools
+## What you get — 17 read-only tools
 
 | Tool | What it returns |
 | --- | --- |
@@ -20,6 +20,11 @@ Registered in the official MCP registry as `tools.i-gaming/igaming-data`.
 | `search_slots` | Search and list public slots |
 | `get_slot` | Full slot profile — RTP/volatility/mechanics, spec sheet, assets |
 | `get_slot_demand` | Per-slot search demand — aggregate + country×month matrix |
+| `list_series` | Slot series (game families, e.g. Big Bass, Wolf Gold) with aggregate stats |
+| `get_series` | Series summary — RTP/max-win/year ranges, volatility mix, slot roster |
+| `list_themes` | Slot themes (Egyptian, Ancient Rome, Fantasy…) with slot counts and aliases |
+| `list_features` | Slot features (Bonus Buy, Cluster Pays, Ante Bet…) with slot counts and aliases |
+| `get_demand_cut` | Which slots are searched in a given country, ranked by 12-month volume |
 | `list_regulators` | Search/list regulators (UKGC, MGA, GGL, ANJ, etc.) |
 | `get_regulator` | Full regulator profile — jurisdiction, authority, statutory basis |
 | `list_news` | iGaming industry news articles |
